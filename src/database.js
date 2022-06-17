@@ -6,6 +6,6 @@ const mongoose =require('mongoose');
 //     .then(db => console.log('DB is connected'))
 //     .catch(err => console.error(err));
 
-mongoose.connect("mongodb+srv://JuanFernandoZuluaga:tSChsAq0uhxAJej1@appreactv1.vpfncrd.mongodb.net/AppReactV1")
+mongoose.connect("mongodb+srv://JuanFernandoZuluaga:tSChsAq0uhxAJej1@appreactv1.vpfncrd.mongodb.net/AppReactV1", {userNewUrlParser: true})
     .then(db => console.log('DB is conected'))
 module.exports = mongoose;
