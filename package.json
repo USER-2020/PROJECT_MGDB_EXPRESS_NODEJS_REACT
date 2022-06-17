@@ -19,7 +19,8 @@
     "mongod": "^2.0.0",
     "mongoose": "^6.3.5",
     "morgan": "^1.10.0",
-    "react-hot-toast": "^2.2.0"
+    "react-hot-toast": "^2.2.0",
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.18.2",
